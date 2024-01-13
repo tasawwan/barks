@@ -1,5 +1,5 @@
 # Global options
-baseURL = "/"
+baseURL = "tasawwan.github.io"
 canonifyURLs = true
 copyright = "© 2024 by Tasawwar Rahman."
 defaultContentLanguage = "en"
