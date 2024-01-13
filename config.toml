@@ -1,4 +1,51 @@
-[module]
-  [module.hugoVersion]
-    extended = true
-    min = "0.87.0"
+# Global options
+baseURL = "/"
+canonifyURLs = true
+copyright = "© 2024 by Tasawwar Rahman."
+defaultContentLanguage = "en"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+languageCode = "en"
+theme = "barks"
+title = "Tasawwar Rahman"
+
+# Main menu
+[[menu.main]]
+    name = "About"
+    url  = "/about"
+    weight = 2
+[[menu.main]]
+    name = "Projects"
+    url  = "/projects"
+    weight = 2
+[[menu.main]]
+    name = "Resume"
+    url  = "/resume"
+    weight = 2
+
+# Customization options
+[params.head]
+    author = "Tas Rahman"
+    description = "Hi, I'm Tas, and this is my website!"
+    keywords = ["Tas", "Computational Biology", "Writer", "Researcher", "Naturalist"]
+
+[params.social]
+    [params.social.email]
+        name = "E-Mail"
+        class = "fas fa-envelope"
+        url = "mailto:tasawwar_rahman@brown.edu"
+        weight = 1
+    [params.social.github]
+        name = "GitHub"
+        class = "fab fa-github"
+        url = "https://github.com/tasawwan"
+        weight = 2
+    [params.social.LinkedIn]
+        name = "LinkedIn"
+        class = "fab fa-linkedin"
+        url = "https://www.linkedin.com/in/tasawwarrahman/"
+        weight = 3
+    [params.social.BDH]
+        name = "BDH"
+        class = "custom-icon"
+        url = "https://www.browndailyherald.com/staff/tasawwar-rahman"
+        weight = 4

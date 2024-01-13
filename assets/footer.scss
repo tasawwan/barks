@@ -9,11 +9,11 @@ footer {
     color: $text-color;
 
     .fas, .fab, .ai {
-        font-size: large;
+        font-size: x-large;
         transition: all .15s ease-in-out;
     }
 
-    .fas:hover, .fab:hover, .ai:hover {
+    .fas:hover, .fab:hover, .ai:hover, .custom-icon:hover {
         color: $link-color;
         transform: scale(1.5);
     }
